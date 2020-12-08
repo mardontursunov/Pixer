@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	margin: 0 auto;
+	width: 1140px;
+}
+.nav {
+	box-shadow: 2px 4px 20px 2px rgba(0,0,0,0.2);
+
+}
+.nav .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-item {
+	padding: 20px;
+}
+.nav-link {
+	color: black;
+	font-weight: 500;
+	font-size: 15px;
+
+}
+.nav-link__number {
+	color: white;
+	font-size: 15px;
+	font-weight: 520;
+	border: 1px solid black;
+	padding: 10px 20px;
+	background-color: #00BAFC;
+	border-radius: 5px;
+	border: none;
+}
+.nav-link:hover {
+	color:  #00BAFC;
+	transition: 0.3s; 
+}
+.nav-link__number:hover {
+	opacity: 50%;
+}
+.main {
+	padding-top: 100px;
+}
+.main .container {
+	display: flex;
+	justify-content: space-between;
+}
+.left-side {
+	width: 45%;
+}
+.main-title {
+	font-size: 32px;
+}
+.main-subtext {
+	padding-top: 20px;
+	line-height: 1.5;
+}
+.left-side-button {
+	color: white;
+	border: 1px solid black;
+	background-color: #00BAFC;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none; 
+}
+.main-button {
+	padding-top: 20px;
+}
+.left-side-button:hover {
+	opacity: 50%;
+}
+.right-side {
+	width: 45%;
+}
+iframe {
+	width: 400px;
+	height: 250px;
+	border-radius: 5px;
+}
+.xizmatlar-title {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.xizmatlar-subtext {
+	width: 800px;
+	text-align: center;
+	padding-top: 20px;
+}
+.service {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.service-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.service-item {
+	margin: 10px;
+	padding: 10px 0px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	width: 30%;
+	text-align: center;
+}
+.service-title {
+	padding-top: 10px;
+}
+.service-subtext {
+	padding-top: 10px;
+}
+.booking-button {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.booking {
+	color: white;
+	border: 1px solid black;
+	padding: 10px 20px;
+	background-color:  #00BAFC;
+	border-radius: 5px;
+	border: none;
+}
+.enter-service {
+	color: #00BAFC;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+.work-title {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.work-subtext {
+	width: 800px;
+	text-align: center;
+	padding-top: 20px;
+}
+.plan {
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+}
+.plan-img {
+	padding: 0 50px;
+}
+.plan-text {
+}
+
+.work .container {
+	flex-direction: column;
+}
+.reverse {
+	flex-direction: row-reverse;
+}
+.plan-subtext {
+	width: 80%;
+}
+.work-button {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.work-link {
+	color: white;
+	border: 1px solid black;
+	padding: 10px 20px;
+	background-color:  #00BAFC;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+
+}
+.work-link:hover {
+	opacity: 50%;
+}
+
+.form {
+	background-color: #00BAFC;
+}
+
+.form .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	padding: 50px 0;
+}
+
+.form-row {
+	padding: 10px 10px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.form-row input {
+	padding: 10px 5px;
+	margin: 10px 0;
+	background-color: #09090920;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.form-row .form-button {
+	padding: 10px 5px;
+	background-color: #00BAFC;
+	border: none;
+	border-radius: 5px;
+	color: white
+}
+
+.footer {
+	background-color: #1f1f1f
+}
+
+.footer .container {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.footer-list {
+	width: 30%;
+	color: white;
+}
+
+.footer-list a {
+	color: #ffffffcc
+}
+
+.footer-list h4 {
+	padding-bottom: 10px;
+}
+
+.footer-list li {
+	padding: 4px 0;
+}
+.list-link {
+	display: flex;
+	align-items: center;
+}
+.list-link img {
+	padding-right: 5px;
+
+}
